@@ -1,0 +1,48 @@
+.feature{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    text-align: center;
+
+    img{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 1.25rem;
+    }
+
+    h2{
+        font-size: 0.90rem;
+        margin-bottom: 0;
+    }
+
+    button{
+        padding: 0.5rem;
+        width: 85%;
+    }
+
+    &--cta{ 
+        position: relative;
+    }
+}
+
+
+//MEDIA QUERY
+@media screen and (min-width: 62.5rem) {
+    .feature{
+        &--right{ 
+            flex-direction: row-reverse;
+        }
+
+        &--left{ 
+            flex-direction: row;
+        }
+    }
+}

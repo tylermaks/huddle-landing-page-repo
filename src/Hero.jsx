@@ -2,16 +2,13 @@ import React from "react"
 import HeroText from "./Assets/Components/HeroText"
 
 import "./Assets/Styles/Hero.scss"
-import logo from "./Assets/Images/logo.svg"
+import NavBar from "./Assets/Components/NavBar"
 
 
 function Hero(){
     return(
         <section id="hero">
-            <nav>
-                <img className="logo" src={logo} alt="logo" />
-                <button>Try it Free</button> 
-            </nav>
+            <NavBar />
             <HeroText />
         </section>
     )

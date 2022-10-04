@@ -20,7 +20,7 @@ body{
 }
 
 //FONTS
-h1{
+h1, h2{
   color: $dkBlue;
   font-family:"Poppins", sans-serif;
   font-size: 1.75rem;
@@ -29,6 +29,8 @@ h1{
 
 p{
   color: $gray;
+  font-size: clamp(13px, 2.5vw, 1rem);
+  line-height: 1.75;
 }
 
 button{
@@ -38,16 +40,33 @@ button{
   color: $dkBlue;
   cursor: pointer;
   font-family:"Poppins", sans-serif;
+  font-size: 12px;
   font-weight: 600;
-  padding: 0.5em 1rem;
+  padding: 0.5em 3rem;
+}
+
+.cta-btn{
+  background-color: $pink;
+  color: #fff;
+  padding: 1rem;
+  width: 75%;
 }
 
 
+//GLOBAL
+section{ 
+  padding: clamp(2rem, 5vw, 3rem);
+}
 
+.container{ 
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+
+//MEDIA QUERIES
 @media screen and (min-width: 62.5rem) {
-  .grid{ 
-    display: grid;
-    grid-template-columns: 0.4fr 0.6fr;
-    gap: 3rem;
+  .container{ 
+    max-width: 1400px;
   }
 }
