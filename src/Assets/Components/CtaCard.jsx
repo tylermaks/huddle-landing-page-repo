@@ -2,7 +2,7 @@ import React from "react";
 
 function CtaCard(){
     return(
-        <div className="container feature feature--cta">
+        <div className="container container--cta feature feature--cta">
             <h2>Ready To Build Your Community?</h2>
             <button className="cta-btn">Get Started for Free</button>
         </div>

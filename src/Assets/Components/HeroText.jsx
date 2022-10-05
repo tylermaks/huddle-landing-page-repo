@@ -4,8 +4,8 @@ import heroImg from "../Images/illustration-mockups.svg"
 
 function HeroText(){
     return(
-        <div className="grid grid__hero">
-            <article className="container hero-inner">
+        <div className="container grid grid__hero">
+            <article className="hero-inner">
                 <h1>Build The Community Your Fans Will Love</h1>
                 <p>
                     Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
@@ -13,7 +13,7 @@ function HeroText(){
                 </p>
                 <button className="cta-btn">Get Started For Free</button>
             </article>
-            <div className="container hero-inner">
+            <div className="hero-inner">
                 <img className="hero-img" src={heroImg} alt="Mockups" />
             </div>
         </div>     
