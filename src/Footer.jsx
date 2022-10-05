@@ -12,7 +12,7 @@ function Footer(){
         <footer>
             <div className="container footer-container">
                 <div className="container footer-logo">
-                    <img src={logo} alt="logo" />
+                    <img src={logo} alt="Huddle Company Logo" />
                 </div>
                 <ContactInfo />
                 <Menu />

@@ -36,7 +36,7 @@ p{
   line-height: 1.75;
 }
 
-button{
+.link{
   background-color: #fff;
   border: none;
   border-radius: 5rem;
@@ -46,13 +46,15 @@ button{
   font-family:"Poppins", sans-serif;
   font-weight: 600;
   padding: 1em 3rem;
-}
+  text-decoration: none;
+  text-align: center;
 
-.cta-btn{
-  background-color: $pink;
-  color: #fff;
-  padding: clamp(0.5rem, 2.5vw, 1.5rem);
-  width: 70%;
+  &--cta{
+    background-color: $pink;
+    color: #fff;
+    padding: clamp(0.5rem, 2.5vw, 1.5rem);
+    width: 70%;
+  }
 }
 
 

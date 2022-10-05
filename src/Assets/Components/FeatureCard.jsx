@@ -6,9 +6,9 @@ function FeatureCard({id, img, heading, text}){
 
     return(
         <div id={id} className={"container feature feature--" + cardPosition}>
-            <img src={img} alt="card-icon" />
+            <img src={img} alt="" aria-hidden="true" />
             <article>
-                <h1>{heading}</h1>
+                <h2>{heading}</h2>
                 <p>{text}</p>
             </article>
         </div>

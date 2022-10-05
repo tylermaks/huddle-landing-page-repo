@@ -4,7 +4,7 @@ function CtaCard(){
     return(
         <div className="container container--cta feature feature--cta">
             <h2>Ready To Build Your Community?</h2>
-            <button className="cta-btn">Get Started for Free</button>
+            <a href="#hero" className="link link--cta">Get Started for Free</a>
         </div>
     )
 }
