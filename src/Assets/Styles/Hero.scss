@@ -20,11 +20,13 @@ $pink: hsl(322, 100%, 66%);
     h1{
         font-size: clamp(1.75rem, 7.5vw, 2.5rem);
     }
+
+    & .cta-btn{
+        margin: 2rem 0 4rem 0;
+    }
 }
 
-.cta-btn{
-    margin: 2rem 0 4rem 0;
-}
+
 
 .hero-img{
     width: 100%;

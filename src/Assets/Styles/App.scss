@@ -57,7 +57,7 @@ button{
 
 
 //GLOBAL
-section{ 
+section, footer{ 
   padding: clamp(2rem, 5vw, 5rem);
 }
 
@@ -76,9 +76,6 @@ section{
     &--cta{
       max-width: 700px;
     }
-    
-    &--footer{
-      width: 100%;
-    }
+
   }
 }

@@ -10,12 +10,14 @@ import logo from "./Assets/Images/logo.svg"
 function Footer(){
     return(
         <footer>
-            <div className="container footer-logo">
-                <img src={logo} alt="logo" />
+            <div className="container footer-container">
+                <div className="container footer-logo">
+                    <img src={logo} alt="logo" />
+                </div>
+                <ContactInfo />
+                <Menu />
+                <SocialLinks />
             </div>
-            <ContactInfo />
-            <Menu />
-            <SocialLinks />
         </footer>
     )
 }
